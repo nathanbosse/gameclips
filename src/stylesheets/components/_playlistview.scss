@@ -1,0 +1,62 @@
+/* PlaylistView
+====================================== */
+@media screen and (max-width: 768px) {
+  .playlist-wrapper {
+    img {
+      height: auto !important;
+      width: 45% !important;
+    }
+    .item-preview-text {
+      padding: 0 !important;
+      width: 55% !important;
+    }
+  }
+}
+.playlist-item-view {
+  margin: 4px;
+  >div {
+    transition: all 3ms;
+    transition-timing-function: linear;
+  }
+}
+.playlist-item-view.active {
+  >div {
+    border: $primary-action-color 4px solid;
+  }
+}
+#playlist-panel {
+  >div {
+    >div {
+      overflow-y: scroll !important;
+      height: 100vh !important;
+    }
+  }
+  .playlist-view {
+    img {
+      width: 100%;
+      height: auto;
+      padding-right: 0;
+    }
+  }
+}
+.playlist-wrapper {
+  .truncate {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.playlist-view {
+  img {
+    height: 110px;
+    padding-right: 10px;
+    vertical-align: top;
+    width: auto;
+    display: inline-block;
+  }
+  .item-preview-text {
+    display: inline-block;
+    padding: 8px;
+  }
+}

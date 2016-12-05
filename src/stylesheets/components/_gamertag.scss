@@ -1,0 +1,18 @@
+/* Posts
+====================================== */
+#gamertag {
+  @include respond-to('small') {
+    margin-left: 240px;
+  }
+  @include respond-to('medium') {
+    margin-left: 240px;
+    margin-right: 240px;
+  }
+  h1.headline {
+    line-height: 35px;
+  }
+  h3.sub-headline {
+    line-height: 25px;
+  }
+
+}

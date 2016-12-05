@@ -1,0 +1,55 @@
+/* All Themes
+====================================== */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, a, label, .username {
+
+  color: #222;
+  font-family: Roboto, sans-serif;
+  &.dark-bg {
+    color: $text-dark-bg;
+  }
+
+  &.display {
+    font-size: 34px;
+  }
+  &.headline {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  &.title {
+    font-size: 20px;
+  }
+  &.sub-headline {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  &.body {
+    font-size: 14px;
+  }
+  &.caption {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  &.form-label {
+    font-size: 14px;
+    color: #716a71;
+    font-weight: normal;
+  }
+  &.body-link {
+    font-size: 14px;
+    color: $primary-action-color;
+  }
+  &.sub-title {
+    font-size: 11px;
+  }
+  &.secondary {
+    opacity: .54;
+  }
+  &.disabled {
+    opacity: .26;
+  }
+}

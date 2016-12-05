@@ -1,0 +1,24 @@
+#left-panel {
+  >div {
+    background-color: $left-panel;
+    >div {
+      >div {
+        >a[type=button] {
+          color: $text-dark-bg !important;
+        }
+        >a[type=button]:hover {
+          color: $text-active-dark-bg !important;
+          background-color: #171617 !important;
+        }
+      }
+    }
+  }
+  #left-panel-login-links {
+    a {
+      margin: 0 12px 0 36px;
+    }
+    >div {
+      margin: 0 12px;
+    }
+  }
+}

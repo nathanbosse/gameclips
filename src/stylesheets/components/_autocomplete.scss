@@ -1,0 +1,14 @@
+.autocomplete {
+  &.dark-bg {
+    width: 100% !important;
+    input {
+      color: $text-active-dark-bg !important;
+    }
+    >div>div>div>div {
+      color: $text-dark-bg !important;
+    }
+  }
+}
+#left-panel .dark-bg.autocomplete {
+  padding: 0 16px 16px;
+}
